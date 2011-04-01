@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cache.Application" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABEAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Application.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cache.Cache" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEBAAAAABABAAAAAAAAAAAAAAEAEAAABCAFAAEA=</HashCode>
+      <FileName>Cache.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.214" />
+  </Class>
+  <Class Name="Cache.Dictionary" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAEBAAAAABkBAAAAAAAAAAAAAAEAEIAABAAFAAEA=</HashCode>
+      <FileName>Dictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cache.HttpRuntime" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABEAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>HttpRuntime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cache.Request" Collapsed="true">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABEAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cache.Session" Collapsed="true">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABEAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cache.Shared" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEBAAAAABABAAAAAAAAAgAAAAEAEAAABAAFAAEA=</HashCode>
+      <FileName>Shared.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cache.Static" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABEAAAAAAAAAAAAAAAAAFAAAAAAAAAAA=</HashCode>
+      <FileName>Static.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Cache.ICache" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEBAAAAABABAAAAAAAAAAAAAAEAEAAABCAFAAEA=</HashCode>
+      <FileName>ICache.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cache.ICacheable" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>ICacheable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
