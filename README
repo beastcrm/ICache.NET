@@ -1,0 +1,16 @@
+ICache.NET
+
+ICache.NET is a handy generic object caching interface for .NET. Allows runtime dependency-injection of an object caching mechanism, which is handy for switching between dev and production environments, for running unit tests, and for abstracting repository code.
+
+Implementations are currently available for:
+
+- IndexUs SharedCache
+- MongoDB
+- ASP.NET Session store
+- ASP.NET HttpRuntime store
+- ASP.NET Request stores
+- POCO in-memory dictionaries
+
+Future implementations could include MemCached, SQL Server, file storage, etc.
+
+Planned enhancements include allowing you to specify a "stack" of caching mechanisms, so that when a requested key is not in a given cache, it will fall back to its own backing cache, retrieve it, and store it. This will provide redundancy as well as performance advantages from a stack such as in-memory cache -> remote shared cache -> remote permanent data store -> remote permanent failover store.
